@@ -21,12 +21,12 @@ def burbuja(seq):
 #
 # ejecutamos la funcion
 #
-""" numero = input("Ingrese un numero: ")
+# [8, 2, 3, 8, 0, 7, 5, 1, 2, 3]
+#
+lista = input("Ingrese una lista: ")
 metodo = input("Elija un metodo (iterativo o recursivo): ")
 
-res = factorial(numero, metodo)
-print(res) """
+res = burbuja(lista)
 
-lista = [8, 2, 3, 8, 0, 7, 5, 1, 2, 3]
-print("Lista original:", lista)
-print("Lista ordenada:", ordenamiento_burbuja(lista))
+print("lista original:", lista)
+print("lista ordenada:", res)
