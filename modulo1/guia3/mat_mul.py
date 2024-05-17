@@ -8,6 +8,10 @@ def obtener_dimension_matriz(matriz):
 
 
 def mat_mul(a, b):
+    # convertir a y b a list
+    a = eval(a)
+    b = eval(b)
+
     dim_a = obtener_dimension_matriz(a)
     dim_b = obtener_dimension_matriz(b)
 
@@ -37,4 +41,4 @@ a = input("ingrese la matriz a:")
 b = input("ingrese la matriz b:")
 
 res = mat_mul(a, b)
-print(res)
+print("resultado de a x b: ", res)
