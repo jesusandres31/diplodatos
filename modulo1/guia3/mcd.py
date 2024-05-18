@@ -1,3 +1,4 @@
+# El algoritmo de Euclides permite calcular el máximo común divisor (MCD)
 def mcd(m, n, metodo="iterativo"):
 
     if metodo == "iterativo":
