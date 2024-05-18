@@ -2,6 +2,7 @@
 # definimos la funcion
 #
 def burbuja(seq):
+    seq = eval(seq)
     n = len(seq)
 
     for i in range(n):
